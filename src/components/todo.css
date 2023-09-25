@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carter One', cursive;
+
+}
+
+.todo_logout {
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.my_todo_app {
+    font-size: 30px;
+}
+
+.logout_button {
+    background-color: black;
+    color: rgb(0, 248, 170);
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+.logout_button:hover {
+    background-color: rgb(0, 248, 170);
+    color: black;
+}
+
+.main_div1 {
+    text-align: center;
+}
+
+.Add_your_todos {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.Add_task_button {
+    background-color: black;
+    color: rgb(0, 248, 170);
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px;
+    margin-left: 8px;
+}
+
+.Add_task_button:hover {
+    background-color: white;
+    color: rgb(0, 248, 170);
+}
+
+.ul_main_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+ul {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    width: 65%;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.li_btn {
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.li_buttons {
+    display: flex;
+    text-align: end;
+}
+
+.all_task_btn {
+    cursor: pointer;
+    background-color: black;
+    color: rgb(0, 248, 170);
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 8px;
+}
+
+.all_task_btn:hover {
+    background-color: white;
+    color: rgb(0, 248, 170);
+}

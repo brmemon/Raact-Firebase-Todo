@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carter One', cursive;
+
+}
+
+.task_keeper {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.login_signup_h1 {
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.main_login_signup {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+}
+
+.login_signup1 {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    padding: 30px 50px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.login_signup2 {
+    display: flex;
+}
+
+input {
+    border-radius: 7px;
+    padding-bottom: 5px;
+    margin: 10px 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.login_signup_form {
+    padding: 40px;
+}
+
+.login_signup_img {
+    width: 50%;
+    border-radius: 30px;
+}
+
+.login_signup_button {
+    background-color: black;
+    color: rgb(0, 248, 170);
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 48px;
+    cursor: pointer;
+}
+
+.login_signup_button:hover {
+    background-color: rgb(0, 248, 170);
+    color: black;
+}
